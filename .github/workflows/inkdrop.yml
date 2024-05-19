@@ -20,7 +20,7 @@ jobs:
 
       - name: Terraform Init and Plan
         id: plan
-        working-directory: ./test-project
+        # working-directory: ./test-project
         run: |
           terraform init
           plan_output=$(terraform plan -out plan.out -no-color)
@@ -60,7 +60,7 @@ jobs:
     with:
       terraform_version: 1.7.0 # Mandatory
       plan_artifact: plan
-      terraform_relative_dir: ./test-project
+      # terraform_relative_dir: ./test-project
       plan_file_name: plan.out
       inkdrop_version: v1.1.13 # Defaults to latest
       diagram_readme: true
