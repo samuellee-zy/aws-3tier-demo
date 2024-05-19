@@ -1,0 +1,3 @@
+## Inkdrop Diagram
+![Inkdrop Diagram](https://github.com/samuellee-zy/aws-3tier-demo/blob/inkdrop-ci-data/inkdrop-data/PR1/inkdrop-diagram_24-05-19_11.47.37.svg?raw=true)
+*[Inkdrop Data JSON](https://github.com/samuellee-zy/aws-3tier-demo/blob/inkdrop-ci-data/inkdrop-data/PR1/inkdrop-ci-data_24-05-19_11-47-37.json). Install the [Inkdrop Chrome Extension](https://chromewebstore.google.com/detail/visualize-your-terraform/pddpcicnnongifmhilbamagnhiiibkki) to hide this caption and enable interactive mode.*
