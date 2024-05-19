@@ -62,6 +62,6 @@ jobs:
       plan_artifact: plan
       # terraform_relative_dir: ./test-project
       plan_file_name: plan.out
-      inkdrop_version: v1.1.13 # Defaults to latest
+      inkdrop_version: v1.1.47 # Defaults to latest
       diagram_readme: true
       modules_diagram_readme: true
