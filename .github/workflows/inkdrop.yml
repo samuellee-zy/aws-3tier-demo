@@ -1,7 +1,7 @@
 name: Pull Request Main
 
 on:
-  pull_request:
+  push:
     branches:
       - main
 
@@ -17,7 +17,7 @@ jobs:
         with:
           terraform_version: 1.7.0
           terraform_wrapper: false
-            
+
       - name: Terraform Init and Plan
         id: plan
         working-directory: ./test-project

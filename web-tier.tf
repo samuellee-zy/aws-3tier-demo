@@ -17,7 +17,7 @@ resource "aws_autoscaling_group" "three-tier-web-asg" {
 ###### Create a launch configuration for the EC2 instances #####
 resource "aws_launch_configuration" "three-tier-web-lconfig" {
   name_prefix     = "three-tier-web-lconfig"
-  image_id        = data.hcp_packer_artifact.aws-linux-packer.external_identifier
+  image_id        = data.aws_ami.ubuntu.image_id
   instance_type   = "t2.micro"
   key_name        = data.aws_key_pair.tfc-demo.key_name
   security_groups = [aws_security_group.three-tier-ec2-asg-sg.id]
